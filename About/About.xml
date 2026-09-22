@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>VPE - Tilling Uses Plant Work Speed</name>
+	<packageId>igorjsm.VPETillingFix</packageId>
+	<author>Igor José Silveira Martins</author>
+	<modVersion>1.0.0</modVersion>
+	<supportedVersions>
+		<li>1.6</li>
+	</supportedVersions>
+	<description>In Vanilla Plants Expanded, tilling soil is a Growing job that uses the Plants skill, but its work speed still comes from the colonist's Construction Speed. This mod makes tilling use Plant Work Speed instead.
+
+- Only tilling is affected. Walls, floors and every other construction job are unchanged.
+- The skill requirement and XP were already handled by Vanilla Expanded Framework (Plants) and stay the same.
+- No construction stuff factor is applied to tilling.
+- Compatible with Vanilla Skills Expanded: its Floor Speed stat no longer applies to tilling (other floors keep it).
+- Heads-up: low-skill growers will till slower and skilled growers faster than before.
+
+Requires Harmony and Vanilla Plants Expanded. Load after Vanilla Plants Expanded.
+Safe to add to or remove from existing saves: it only changes code at runtime and adds no new Defs.</description>
+	<modDependencies>
+		<li>
+			<packageId>brrainz.harmony</packageId>
+			<displayName>Harmony</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+			<downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+		</li>
+		<li>
+			<packageId>VanillaExpanded.VPlantsE</packageId>
+			<displayName>Vanilla Plants Expanded</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/2134308522</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>brrainz.harmony</li>
+		<li>VanillaExpanded.VPlantsE</li>
+	</loadAfter>
+</ModMetaData>
