@@ -1,5 +1,7 @@
 # VPE - Tilling Uses Plant Work Speed
 
+**[Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3805983549)**
+
 A RimWorld 1.6 mod. In [Vanilla Plants Expanded](https://steamcommunity.com/sharedfiles/filedetails/?id=2134308522),
 tilling soil is a Growing job that uses the Plants skill, but its work speed still comes from the colonist's
 **Construction Speed**. This mod makes tilling use **Plant Work Speed** instead.
